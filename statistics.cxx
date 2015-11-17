@@ -37,12 +37,12 @@ void F_stat(double* x, double& mean, double& var, const int N){
 int main(){
 	
 	const int N = 100;
-	double p[N];
+	double x[N];
 	double mean, var;
 	srand(time(0));
 	// Some lines here....
-	F_rand(p, N);
-	F_stat(p, mean, var, N);
+	F_rand(x, N);
+	F_stat(x, mean, var, N);
 
 	cout << "Mean = " << mean << endl;
 	cout << "Variance = " << var << endl;
