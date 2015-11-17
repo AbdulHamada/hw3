@@ -1,5 +1,5 @@
 // hw3_statistics.cpp : Defines the entry point for the console application.
-//Visual Studio .
+//Visual Studio 2013.
 
 #include "stdafx.h"
 #include <cmath>
